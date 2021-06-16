@@ -6,10 +6,13 @@ const Buttons = (props) => (
     {props.tasks.length > 0 && (
       <>
         <button className="buttons__button">
-          {props.hideDoneTasks ? "Show" : "Hide"} completed tasks
+          {props.hideDone ? "Show" : "Hide"} completed tasks
         </button>
         <button 
           className="buttons__button"
+          // ___________
+          autofocus
+          // ___________
           disabled={props.tasks.every(({ done }) => done)}
         >
           Complete all tasks
