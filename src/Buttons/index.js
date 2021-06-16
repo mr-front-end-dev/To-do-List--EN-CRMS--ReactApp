@@ -1,7 +1,7 @@
 import React from 'react';
 import "./index.css";
 
-const Buttons = ({ tasks, hideDone, toggleHideDone }) => (
+const Buttons = ({ tasks, hideDone, toggleHideDone, setAllDone }) => (
   <div className="buttons">
     {tasks.length > 0 && (
       <>
@@ -9,10 +9,8 @@ const Buttons = ({ tasks, hideDone, toggleHideDone }) => (
           {hideDone ? "Show" : "Hide"} completed tasks
         </button>
         <button 
+          onClick={setAllDone}
           className="buttons__button"
-          // ___________
-          autofocus
-          // ___________
           disabled={tasks.every(({ done }) => done)}
         >
           Complete all tasks
