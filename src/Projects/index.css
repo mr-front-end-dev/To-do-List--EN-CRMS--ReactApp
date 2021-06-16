@@ -1,0 +1,40 @@
+.section__links {
+  background-color: hsl(0, 0%, 100%);
+  padding: 20px;
+  cursor: context-menu;
+}
+
+.section__button {
+  margin: 5px;
+  padding: 8px;
+  cursor: context-menu;
+  border-style: none;
+  background-color: hsl(348, 83%, 57%);
+  color: hsl(0, 0%, 100%);
+}
+
+.section__button:hover {
+  background-color: hsl(348, 83%, 62%);
+  color: hsl(0, 0%, 100%);
+}
+
+.section__button:active {
+  background-color: hsl(348, 83%, 67%);
+}
+
+.section__button--link {
+  cursor: context-menu;
+}
+
+.section__button--deepskyblue {
+  background-color: hsl(195, 100%, 50%);
+  color: rgb(255, 255, 255);
+}
+
+.section__button--deepskyblue.section__button--deepskyblue:hover {
+  background-color: hsl(195, 100%, 55%);
+}
+
+.section__button--deepskyblue.section__button--deepskyblue:active {
+  background-color: hsl(195, 100%, 60%);
+}
