@@ -1,19 +1,19 @@
 import React from 'react';
 import "./index.css";
 
-const Buttons = (props) => (
+const Buttons = ({ tasks, hideDone, toggleHideDone }) => (
   <div className="buttons">
-    {props.tasks.length > 0 && (
+    {tasks.length > 0 && (
       <>
-        <button className="buttons__button">
-          {props.hideDone ? "Show" : "Hide"} completed tasks
+        <button onClick={toggleHideDone} className="buttons__button">
+          {hideDone ? "Show" : "Hide"} completed tasks
         </button>
         <button 
           className="buttons__button"
           // ___________
           autofocus
           // ___________
-          disabled={props.tasks.every(({ done }) => done)}
+          disabled={tasks.every(({ done }) => done)}
         >
           Complete all tasks
         </button>

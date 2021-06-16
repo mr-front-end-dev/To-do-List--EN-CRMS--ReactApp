@@ -1,14 +1,14 @@
 import React from 'react';
 import "./index.css";
 
-const Tasks = (props) => (
+const Tasks = ({ tasks, hideDone }) => (
   <ul className="tasks">
-    {props.tasks.map(task => (
+    {tasks.map(task => (
       <li 
       // _______________
       key={task.id}
       // _______________
-      className={`tasks__item${task.done && props.hideDone ? " tasks__item--hidden" : ""}`}
+      className={`tasks__item${task.done && hideDone ? " tasks__item--hidden" : ""}`}
       >
         <button className="tasks__button tasks__button--toggleDone">
           {task.done ? "✔" : ""}
