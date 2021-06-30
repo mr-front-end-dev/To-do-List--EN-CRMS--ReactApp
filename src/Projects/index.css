@@ -28,7 +28,7 @@
 
 .section__button--deepskyblue {
   background-color: hsl(195, 100%, 50%);
-  color: rgb(255, 255, 255);
+  color: hsl(0, 0%, 100%);
 }
 
 .section__button--deepskyblue.section__button--deepskyblue:hover {
