@@ -1,8 +1,10 @@
 import React from 'react';
+import { Clock } from "./Clock";
 import "./index.css";
 
 const Projects = () => (
   <section className="section__links">
+    <Clock />
     <a className="section__button--link" href="#"><button className="section__button">RU</button></a>
     <a className="section__button--link" href="#"><button className="section__button">DE</button></a>
     <a className="section__button--link" href="#"><button className="section__button">ES</button></a>
