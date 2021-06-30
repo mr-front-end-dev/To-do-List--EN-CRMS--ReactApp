@@ -1,22 +1,19 @@
 {
   "files": {
-    "main.css": "/To-do-List--EN-CRMS--ReactApp/static/css/main.e3e0adec.chunk.css",
-    "main.js": "/To-do-List--EN-CRMS--ReactApp/static/js/main.2a416089.chunk.js",
-    "main.js.map": "/To-do-List--EN-CRMS--ReactApp/static/js/main.2a416089.chunk.js.map",
-    "runtime-main.js": "/To-do-List--EN-CRMS--ReactApp/static/js/runtime-main.0be06cdf.js",
-    "runtime-main.js.map": "/To-do-List--EN-CRMS--ReactApp/static/js/runtime-main.0be06cdf.js.map",
-    "static/js/2.56d5fade.chunk.js": "/To-do-List--EN-CRMS--ReactApp/static/js/2.56d5fade.chunk.js",
-    "static/js/2.56d5fade.chunk.js.map": "/To-do-List--EN-CRMS--ReactApp/static/js/2.56d5fade.chunk.js.map",
-    "static/js/3.152d6825.chunk.js": "/To-do-List--EN-CRMS--ReactApp/static/js/3.152d6825.chunk.js",
-    "static/js/3.152d6825.chunk.js.map": "/To-do-List--EN-CRMS--ReactApp/static/js/3.152d6825.chunk.js.map",
+    "main.js": "/To-do-List--EN-CRMS--ReactApp/static/js/main.05b06dcf.chunk.js",
+    "main.js.map": "/To-do-List--EN-CRMS--ReactApp/static/js/main.05b06dcf.chunk.js.map",
+    "runtime-main.js": "/To-do-List--EN-CRMS--ReactApp/static/js/runtime-main.ef514f33.js",
+    "runtime-main.js.map": "/To-do-List--EN-CRMS--ReactApp/static/js/runtime-main.ef514f33.js.map",
+    "static/js/2.a6f6405f.chunk.js": "/To-do-List--EN-CRMS--ReactApp/static/js/2.a6f6405f.chunk.js",
+    "static/js/2.a6f6405f.chunk.js.map": "/To-do-List--EN-CRMS--ReactApp/static/js/2.a6f6405f.chunk.js.map",
+    "static/js/3.26520c53.chunk.js": "/To-do-List--EN-CRMS--ReactApp/static/js/3.26520c53.chunk.js",
+    "static/js/3.26520c53.chunk.js.map": "/To-do-List--EN-CRMS--ReactApp/static/js/3.26520c53.chunk.js.map",
     "index.html": "/To-do-List--EN-CRMS--ReactApp/index.html",
-    "static/css/main.e3e0adec.chunk.css.map": "/To-do-List--EN-CRMS--ReactApp/static/css/main.e3e0adec.chunk.css.map",
-    "static/js/2.56d5fade.chunk.js.LICENSE.txt": "/To-do-List--EN-CRMS--ReactApp/static/js/2.56d5fade.chunk.js.LICENSE.txt"
+    "static/js/2.a6f6405f.chunk.js.LICENSE.txt": "/To-do-List--EN-CRMS--ReactApp/static/js/2.a6f6405f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.0be06cdf.js",
-    "static/js/2.56d5fade.chunk.js",
-    "static/css/main.e3e0adec.chunk.css",
-    "static/js/main.2a416089.chunk.js"
+    "static/js/runtime-main.ef514f33.js",
+    "static/js/2.a6f6405f.chunk.js",
+    "static/js/main.05b06dcf.chunk.js"
   ]
 }
