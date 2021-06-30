@@ -12,7 +12,7 @@ export const StyledForm = styled.form`
 
 export const Input = styled.input`
   padding: 20px; 
-  border: 1px solid ${({ theme }) => theme.color.lightGrey};
+  border: 1px solid ${({ theme }) => theme.color.lightgrey};
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax360}px) {
     width: 75vw;

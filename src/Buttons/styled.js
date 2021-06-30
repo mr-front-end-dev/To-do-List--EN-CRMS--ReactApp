@@ -25,8 +25,8 @@ export const Button = styled.button`
   &:active {
     filter: brightness(120%);
   }
-  
+
   &:disabled {
-    color: ${({ theme }) => theme.color.lightSlateGrey}
+    color: ${({ theme }) => theme.color.lightslategrey}
   }
 `;

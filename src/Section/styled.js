@@ -3,11 +3,11 @@ import styled from "styled-components";
 export const Wrapper = styled.section`
   margin: 10px 0;
   background: ${({ theme }) => theme.color.white};  
-  box-shadow: 0 0 30px ${({ theme }) => theme.color.lightGrey}; 
+  box-shadow: 0 0 30px ${({ theme }) => theme.color.lightgrey}; 
 `;
 
 export const Header = styled.header`
-  border-bottom: 1px solid ${({ theme }) => theme.color.lightGrey}; 
+  border-bottom: 1px solid ${({ theme }) => theme.color.lightgrey}; 
   display: grid;
   grid-template-columns: auto auto;
   grid-gap: 20px;
