@@ -1,9 +1,9 @@
 import React from 'react';
-import "./index.css";
+import { Title } from "./styled";
 
 const Header = ({ title }) => (
   <header>
-    <h2 className="section__title">{title}</h2>
+    <Title>{title}</Title>
   </header>
 );
 

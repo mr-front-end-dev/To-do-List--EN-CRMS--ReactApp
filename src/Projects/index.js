@@ -1,17 +1,17 @@
 import React from 'react';
 import { Clock } from "./Clock";
-import "./index.css";
+import { Links, Link, Button } from "./styled";
 
 const Projects = () => (
-  <section className="section__links">
+  <Links>
     <Clock />
-    <a className="section__button--link" href="#"><button className="section__button">RU</button></a>
-    <a className="section__button--link" href="#"><button className="section__button">DE</button></a>
-    <a className="section__button--link" href="#"><button className="section__button">ES</button></a>
-    <a className="section__button--link" href="#"><button className="section__button">PL</button></a>
-    <a className="section__button--link" href="#"><button className="section__button">UA</button></a>
-    <a className="section__button--link" href="#"><button className="section__button section__button--deepskyblue">🌓</button></a>
-  </section>
+    <Link href="#"><Button>RU</Button></Link>
+    <Link href="#"><Button>DE</Button></Link>
+    <Link href="#"><Button>ES</Button></Link>
+    <Link href="#"><Button>PL</Button></Link>
+    <Link href="#"><Button>UA</Button></Link>
+    <Link href="#"><Button deepSkyBlue>🌓</Button></Link>
+  </Links>
 )
 
 export default Projects;
