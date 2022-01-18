@@ -26,7 +26,7 @@ function App() {
   return (
     <Container>
       <Projects />
-      <Header title="To-do list" />
+      <Header title="ToDo list" />
       <Section 
         title="Add new Task" 
         body={
@@ -36,7 +36,7 @@ function App() {
         } 
       />
       <Section 
-        title="To-do list"
+        title="ToDo list"
         body={
           <Tasks 
             tasks={tasks} 
