@@ -1,10 +1,13 @@
-import { takeEvery, call, put } from "redux-saga/effects";
-import { fetchExampleTasks, setTasks } from "./tasksSlice";
+import { debounce, call, put, delay, select } from "redux-saga/effects";
+import { fetchExampleTasks, setTasks, selectTasks } from "./tasksSlice";
 import { getExampleTasks } from "./getExampleTasks";
 
 function* fetchExampleTasksHandler() {
+  console.log("I start work")
   try {
-    const exampleTasks =  yield call (getExampleTasks);
+    const tasks = yield select(selectTasks);
+    yield delay(1000);
+    const exampleTasks = yield call (getExampleTasks);
     yield put(setTasks(exampleTasks));
   } catch (error) {
     yield call(alert, "Something went wrong!");
@@ -13,5 +16,5 @@ function* fetchExampleTasksHandler() {
 
 export function* watchFetchExampleTasks() {
   console.log("Saga jest podłączona!")
-  yield takeEvery(fetchExampleTasks.type, fetchExampleTasksHandler);
+  yield debounce(2000, fetchExampleTasks.type, fetchExampleTasksHandler);
 }
