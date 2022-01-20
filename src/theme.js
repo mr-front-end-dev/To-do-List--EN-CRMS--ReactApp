@@ -6,6 +6,7 @@ export const theme = {
     crimson: "#ec365b",
     lightslategrey: "#778899",
     lightgrey: "#d3d3d3",
+    yellow: "#ffff00",
   },
   breakpoint: {
     mobileMax360: 360,
