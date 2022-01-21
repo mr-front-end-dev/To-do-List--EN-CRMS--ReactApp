@@ -15,14 +15,13 @@ function TaskPage() {
       <Header title="Task details" />
       <Section 
         title={task ? task.content : "Not found the task 😢"} 
-        body={
+        body={!!task && (
           <><strong>Completed:</strong> {task.done ? "Yes" : "No"}</>
-        } 
+        )} 
       />
 
   </Container>
   );
 };
-
 
 export default TaskPage;

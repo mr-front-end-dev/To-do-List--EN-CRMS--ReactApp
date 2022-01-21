@@ -1,13 +1,16 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { Wrapper, Button } from './styled';
+import { Wrapper } from './styled';
+import Button from '../Button';
 import { 
   toggleHideDone, 
   setAllDone, 
   selectAreTasksEmpty, 
   selectHideDone, 
   selectIsEveryTaskDone, 
-  fetchExampleTasks 
+  // ___________________
+  fetchExampleTasks,
+  // ___________________
 } from '../../tasksSlice';
 
 const Buttons = () => {
@@ -19,7 +22,9 @@ const Buttons = () => {
 
   return (
     <Wrapper>
+      {/* _____________________________________________ */}
       <Button onClick={() => dispatch(fetchExampleTasks())}>
+      {/* _____________________________________________ */}
         Download sample tasks
       </Button>
       {!areTasksEmpty && (
