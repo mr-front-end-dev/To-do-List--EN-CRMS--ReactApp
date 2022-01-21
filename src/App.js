@@ -1,39 +1,34 @@
 import React from "react";
-import { HashRouter, Switch, Route, Redirect } from "react-router-dom";
-import TasksPage from "./features/tasks/TasksPage";
-import TaskPage from "./features/tasks/TaskPage";
-import AuthorPage from "./features/author/AuthorPage";
-import { StyledNavLink } from "./styled";
+import Tasks from "./features/tasks/TasksPage";
+import Task from "./features/tasks/TaskPage";
+import Author from "./features/author/Author";
+
+import { 
+  HashRouter, 
+  Switch, 
+  Route, 
+  Redirect 
+} from "react-router-dom";
+import { toAuthor, toTask, toTasks } from "./routes";
+import Navigation from "./Navigation";
 
 export default () => (
   <HashRouter>
-    <nav>
-      <ul>
-        <li>
-          <StyledNavLink to="/tasks">
-            Tasks
-          </StyledNavLink>
-        </li>
-        <li>
-          <StyledNavLink to="/author">
-            About the author
-          </StyledNavLink>
-        </li>
-      </ul>
+    <Navigation />
+    
       <Switch>
-        <Route path="/tasks/:id">
-          <TaskPage />
+        <Route path={toTask()}>
+          <Task />
         </Route>
-        <Route path="/tasks">
-          <TasksPage />
+        <Route path={toTasks()}>
+          <Tasks />
         </Route>
-        <Route path="/author">
-          <AuthorPage />
+        <Route path={toAuthor()}>
+          <Author />
         </Route>
-        <Route path="/">
-          <Redirect to="/tasks" />
+        <Route>
+          <Redirect to={toTasks()} />
         </Route>
       </Switch>
-    </nav>
   </HashRouter>
 );
