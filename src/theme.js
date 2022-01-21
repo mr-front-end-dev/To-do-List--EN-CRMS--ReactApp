@@ -2,11 +2,12 @@ export const theme = {
   color: {
     white: "#fff",
     black: "#000",
-    deepskyblue: "#00bfff",
+    deepSkyBlue: "#00bfff",
     crimson: "#ec365b",
-    lightslategrey: "#778899",
-    lightgrey: "#d3d3d3",
-    yellow: "#ffff00",
+    lightSlateGrey: "#778899",
+    lightGrey: "#d3d3d3",
+    // yellow: "#ffff00",
+    // forestGreen: "#228b22",
   },
   breakpoint: {
     mobileMax360: 360,

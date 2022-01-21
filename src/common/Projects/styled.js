@@ -27,7 +27,7 @@ export const Button = styled.button`
   }
 
   ${({ deepSkyBlue }) => deepSkyBlue && css`
-    background-color: ${({ theme }) => theme.color.deepskyblue};
+    background-color: ${({ theme }) => theme.color.deepSkyBlue};
     color: ${({ theme }) => theme.color.white};
   `}
 
