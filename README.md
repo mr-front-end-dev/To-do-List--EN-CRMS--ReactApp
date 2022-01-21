@@ -1,5 +1,4 @@
-## Code: [link](https://mr-front-end-dev.github.io/ToDo-List--EN-CRMS--ReactApp/) 
-## Demo: [link](https://mr-front-end-dev.github.io/ToDo-List--EN-CRMS--ReactApp/)
+## Demo: [ToDo-List--EN-CRMS--ReactApp](https://mr-front-end-dev.github.io/ToDo-List--EN-CRMS--ReactApp/)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
