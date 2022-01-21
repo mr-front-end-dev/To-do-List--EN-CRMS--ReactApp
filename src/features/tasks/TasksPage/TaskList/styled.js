@@ -12,16 +12,10 @@ export const Item = styled.li`
   grid-gap: 10px;
   align-items: center;
   padding: 10px; 
-  border-bottom: 1px solid ${({ theme }) => theme.color.lightgrey}; 
+  border-bottom: 1px solid ${({ theme }) => theme.color.lightGrey}; 
 
   ${({ hidden }) => hidden && css`
     display: none;
-  `}
-`;
-
-export const Content = styled.span`
-  ${({ done }) => done && css`
-    text-decoration: line-through;
   `}
 `;
 
@@ -35,7 +29,7 @@ export const Button = styled.button`
   transition: filter 0.3s;
 
    ${({ toggleDone }) => toggleDone && css`
-    background-color: ${({ theme }) => theme.color.deepskyblue}; 
+    background-color: ${({ theme }) => theme.color.deepSkyBlue}; 
   `} 
 
   ${({ remove }) => remove && css`
@@ -50,3 +44,19 @@ export const Button = styled.button`
     filter: brightness(120%);
   }
 `;
+
+export const Content = styled.span`
+  ${({ done }) => done && css`
+    text-decoration: line-through;
+  `}
+`;
+// _____________________________________________________
+export const StyledLink = styled.a`
+  color: ${({ theme }) => theme.color.white};
+  text-decoration: none;
+  
+  &:hover {
+    border-bottom: 1px solid;
+  }
+  `;
+  // _____________________________________________________
