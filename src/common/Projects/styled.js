@@ -26,8 +26,8 @@ export const Button = styled.button`
     filter: brightness(120%);
   }
 
-  ${({ deepSkyBlue }) => deepSkyBlue && css`
-    background-color: ${({ theme }) => theme.color.deepSkyBlue};
+  ${({ teal }) => teal && css`
+    background-color: ${({ theme }) => theme.color.teal};
     color: ${({ theme }) => theme.color.white};
   `}
 
