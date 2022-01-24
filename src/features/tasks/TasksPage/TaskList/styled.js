@@ -29,11 +29,13 @@ export const Button = styled.button`
   transition: filter 0.3s;
 
    ${({ toggleDone }) => toggleDone && css`
-    background-color: ${({ theme }) => theme.color.deepSkyBlue}; 
+    color: ${({ theme }) => theme.color.yellow};
+    background-color: ${({ theme }) => theme.color.teal}; 
   `} 
 
   ${({ remove }) => remove && css`
-    background-color: ${({ theme }) => theme.color.crimson};
+    color: ${({ theme }) => theme.color.lightSlateGrey};
+    background-color: ${({ theme }) => theme.color.yellow};
   `}
 
   &:hover {

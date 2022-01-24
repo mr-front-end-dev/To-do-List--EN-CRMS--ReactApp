@@ -15,8 +15,8 @@ export const Button = styled.button`
   padding: 8px;
   cursor: context-menu;
   border-style: none;
-  background-color: ${({ theme }) => theme.color.crimson};
-  color: ${({ theme }) => theme.color.white};
+  background-color: ${({ theme }) => theme.color.yellow};
+  color: ${({ theme }) => theme.color.lightSlateGrey};
 
   &:hover {
     filter: brightness(110%);
@@ -26,8 +26,8 @@ export const Button = styled.button`
     filter: brightness(120%);
   }
 
-  ${({ deepSkyBlue }) => deepSkyBlue && css`
-    background-color: ${({ theme }) => theme.color.deepSkyBlue};
+  ${({ teal }) => teal && css`
+    background-color: ${({ theme }) => theme.color.teal};
     color: ${({ theme }) => theme.color.white};
   `}
 
