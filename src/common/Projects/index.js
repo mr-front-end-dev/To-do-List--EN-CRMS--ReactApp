@@ -5,12 +5,12 @@ import { Links, Link, Button } from "./styled";
 const Projects = () => (
   <Links>
     <Clock />
-    <Link href="ToDo-List--DE-CRMS--ReactApp"><Button>DE</Button></Link>
-    <Link href="ToDo-List--ES-CRMS--ReactApp"><Button>ES</Button></Link>
-    <Link href="ToDo-List--RU-CRMS--ReactApp"><Button>RU</Button></Link>
-    <Link href="ToDo-List--PL-CRMS--ReactApp"><Button>PL</Button></Link>
-    <Link href="ToDo-List--UA-CRMS--ReactApp"><Button>UA</Button></Link>
-    <Link href="ToDo-List--EN-TEYE--ReactApp"><Button teal>🌓</Button></Link>
+    <Link href="#"><Button>DE</Button></Link>
+    <Link href="#"><Button>ES</Button></Link>
+    <Link href="#"><Button>RU</Button></Link>
+    <Link href="#"><Button>PL</Button></Link>
+    <Link href="#"><Button>UA</Button></Link>
+    <Link href="#"><Button teal>🌓</Button></Link>
   </Links>
 )
 
