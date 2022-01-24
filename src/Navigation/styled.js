@@ -19,7 +19,7 @@ export const StyledNavLink = styled(NavLink).attrs(() => ({
 `;
 
 export const List = styled.ul`
-  background: ${({ theme }) => theme.color.teal};
+  background: ${({ theme }) => theme.color.deepSkyBlue};
   margin: 0;
   padding: 0;
   display: flex;

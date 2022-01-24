@@ -4,8 +4,9 @@ export const theme = {
     black: "#000",
     lightSlateGrey: "#778899",
     lightGrey: "#d3d3d3",
-    teal: "#008080",
-    yellow: "#ffff00"
+    deepSkyBlue: "#00bfff",
+    teal: "#009999",
+    crimson: "#ec365b"
   },
   breakpoint: {
     mobileMax360: 360,

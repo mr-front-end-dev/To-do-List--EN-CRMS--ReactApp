@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export default styled.button`
   background-color: transparent;
-  color: ${({ theme }) => theme.color.teal};
+  color: ${({ theme }) => theme.color.deepSkyBlue};
   border: none;
   margin: 0 0 0 20px;
   border-bottom: 1px solid transparent;

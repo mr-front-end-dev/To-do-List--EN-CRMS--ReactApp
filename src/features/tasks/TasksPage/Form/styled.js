@@ -12,8 +12,8 @@ export const StyledForm = styled.form`
 
 export const Button = styled.button`
   padding: 20px; 
-  color: ${({ theme }) => theme.color.lightSlateGrey}; 
-  background-color: ${({ theme }) => theme.color.yellow}; 
+  color: ${({ theme }) => theme.color.white}; 
+  background-color: ${({ theme }) => theme.color.crimson}; 
   border: none;
   transition: color 0.3s;
 
