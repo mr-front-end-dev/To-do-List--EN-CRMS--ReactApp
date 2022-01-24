@@ -10,12 +10,12 @@ export default () => (
         title="Nikita Rysiev" 
         body={
           <p contentEditable>
-            Hej! My name a Nick, and I am a beginner Junior Front End Developer and Junior Manual Software Tester.
-            My native language is Russian, but I learn and practice more English language, Polish and some German.
-            
-            Now I try to study software testing and some coding of simple web applications.
-            
-            I want to know coding and speaking English very well to be useful in the labor market. 
+            <p>you can edit the text below</p>
+            <p>Hej! My name a Nick, and I am a beginner Junior Front End Developer and Junior Manual Software Tester.
+            My native language is Russian, but I learn and practice more English language, Polish and some German.</p> 
+            <p>Now I try to study software testing and some coding of simple web applications.</p>
+            <p>I want to know coding and speaking English very well to be useful in the labor market. 
+            </p>
           </p>
           } 
         />
